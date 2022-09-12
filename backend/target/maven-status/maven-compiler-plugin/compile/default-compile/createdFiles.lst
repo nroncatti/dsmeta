@@ -1,0 +1,6 @@
+com\devsuperior\dsmeta\services\SaleService.class
+com\devsuperior\dsmeta\config\SecurityConfig.class
+com\devsuperior\dsmeta\controllers\SaleController.class
+com\devsuperior\dsmeta\repository\SaleRepository.class
+com\devsuperior\dsmeta\DsmetaApplication.class
+com\devsuperior\dsmeta\entities\Sale.class

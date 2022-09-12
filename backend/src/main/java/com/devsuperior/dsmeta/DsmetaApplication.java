@@ -1,5 +1,6 @@
 package com.devsuperior.dsmeta;
 
+import com.devsuperior.dsmeta.config.SecurityConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,4 +11,9 @@ public class DsmetaApplication {
 		SpringApplication.run(DsmetaApplication.class, args);
 	}
 
+	SecurityConfig securityConfig = new SecurityConfig();
+
+	public SecurityConfig getSecurityConfig() {
+		return securityConfig;
+	}
 }
